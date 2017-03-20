@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<title>Contact</title>
+
+<head>
+	<meta charset="utf-8" style="height: 100% overflow: hidden;">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<a href="portfolio.html">Home</a>
+	<a href="bio.html ">Bio</a>
+	<title>Contact</title>
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+		<style>
+			input[type=text],
+			select,
+			textarea {
+				width: 100%;
+				padding: 12px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+				margin-top: 6px;
+				margin-bottom: 16px;
+				resize: vertical;
+			}
+			
+			input[type=submit] {
+				background-color: red;
+				color: white;
+				padding: 12px 20px;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+			
+			input[type=submit]:hover {
+				background-color: black;
+			}
+			
+			.container {
+				border-radius: 5px;
+				background-color: black;
+				padding: 20px;
+			}
+		</style>
+
+
+		<div class="container">
+			<form action="/action_page.php">
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				<label for="country">Country</label>
+				<select id="country" name="country">>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select> <label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</head>
+	<header>
+		<h1 id="logo">Lets Connect!</h1>
+		<nav>
+			<ul>
+			</ul>
+		</nav>
+	</header>
+
+	<body>
+
+		<footer>
+
+		</footer>
+
+	</body>
+
+	</html>

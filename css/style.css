@@ -1,0 +1,125 @@
+header {
+	font-size: 100%;
+	color:black;
+
+}
+
+
+/*.logo {
+    border-top:4px solid #648880;
+    position:absolute;
+	top: 0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+*/
+
+nav {
+	margin-right: 0px;
+	top: 0px;
+	padding: 40px;
+	margin: 0px;
+	vertical-align: baseline;
+	
+}
+
+
+
+*/ body {
+	font-family: "Helvetica Regular" Helvetica, Arial;
+	font-size: 12px: line-height: 18px;
+	min-width: 730px;
+}
+
+
+
+
+h3 {
+    top: 400px;
+    left:50%;
+	font-size: 500%;
+	color:black;	
+	text-align: center;
+	vertical-align: top;
+}
+
+
+h1 {
+	height: 100px;
+	font-size: 300%;
+	color: black;
+	padding-left: 00px;
+	margin-left: 0px;
+	margin-right: 0px;
+	align-content: right;
+}
+
+.vertical-rl {
+	writing-mode: vertical-rl;
+	font-size: 500%;
+	display: block;
+	margin-top: inherit;
+}
+
+.Vertical-Text {
+	position: right;
+}
+
+p {
+	font-size: 300%;
+	
+}
+
+/*
+#bg {
+	background-attachment: url(../images/back runway photo.jpg);
+	background:100% auto;
+	background-position: no-repeat;
+	background-image: scroll;
+	background-position: right;
+	padding: 100px 0px 0px 0px;
+	height: 60vh;
+	background-size: 65% auto;
+	justify-content: right;
+	align-items: right;
+	align-content: right:
+	display: flex;
+	opacity: 0.15%;
+	z-index: -1;
+}
+*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html,
+body {
+	height: 100%;
+}
+#main {
+	overflow: auto;
+	padding-bottom: 150px;
+}
+#footer {
+	positon: relative;
+	margin-top: -150px;
+	height: 150px;
+	background-color: crimson;
+	vertical-align: bottom;
+	font-size: 200%;
+	<a href "/" title="Back to the Home page"><b>HOME</b> | <a href="#" title="To the top of this page"><b>BACK TO THE TOP</b></a>
+}
+#socialicons {
+	position-right;
+}
+.video {
+	height: $video-height;
+	position: relative;
+	overflow: hidden;
+	cursor:pointer;
+}
+.video__placeholder { 
+	min-width: 100%; display:block; 
+}
