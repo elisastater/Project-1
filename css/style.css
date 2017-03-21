@@ -27,10 +27,11 @@ nav {
 
 
 
-*/ body {
+body {
 	font-family: "Helvetica Regular" Helvetica, Arial;
 	font-size: 12px: line-height: 18px;
 	min-width: 730px;
+	background-color: crimson;
 }
 
 
